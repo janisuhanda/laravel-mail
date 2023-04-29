@@ -21,7 +21,6 @@ Route::get('/', function () {
 });
 
 // menggunakan class SendEmail (php artisan make:mail SendEmail) tanpa controller
-
 Route::get('/send-email',function(){
     $data = [
         'name' => 'janisuhanda',
