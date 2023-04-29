@@ -66,7 +66,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
-setting .env :
+setting .env : </br>
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.mailgun.org
 MAIL_PORT=465
@@ -75,3 +75,6 @@ MAIL_PASSWORD=*********
 MAIL_ENCRYPTION=null
 MAIL_FROM_ADDRESS="contoh@example.com"
 MAIL_FROM_NAME="${APP_NAME}"
+
+
+
