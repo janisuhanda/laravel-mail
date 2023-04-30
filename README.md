@@ -66,15 +66,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
-setting .env : </br>
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.mailgun.org
-MAIL_PORT=465
-MAIL_USERNAME=****@********
-MAIL_PASSWORD=*********
-MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS="contoh@example.com"
-MAIL_FROM_NAME="${APP_NAME}"
+setting .env :  
+MAIL\_MAILER=smtp  
+MAIL\_HOST=smtp.mailgun.org  
+MAIL\_PORT=465  
+MAIL\_USERNAME=_\*\*_**\*\*@\*\***_\*\*\*\*_\*\*  
+MAIL\_PASSWORD=\*_\*\*\*\*\*\*_\*\*  
+MAIL\_ENCRYPTION=null  
+MAIL\_FROM\_ADDRESS="contoh@example.com"  
+MAIL\_FROM\_NAME="${APP\_NAME}"
 
-
+Testing : 
+1.  http://127.0.0.1:8000/send-email
+2.  http://127.0.0.1:8000/sendbasicemail
+3.  [http://127.0.0.1:8000/sendhtmlemail](http://127.0.0.1:8000/sendhtmlemail)
+4.  http://127.0.0.1:8000/sendattachmentemail
 
