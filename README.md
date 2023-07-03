@@ -82,3 +82,8 @@ Testing : 
 3.  [http://127.0.0.1:8000/sendhtmlemail](http://127.0.0.1:8000/sendhtmlemail)
 4.  http://127.0.0.1:8000/sendattachmentemail
 
+
+Sumber :
+1. https://www.tutorialspoint.com/laravel/laravel_sending_email.htm
+2. https://laravel.com/docs/10.x/mail
+3. 
